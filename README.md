@@ -7,3 +7,14 @@ Voir la readme [installation.md](installation.md).
 # Ressources
 - Cahier des charges techniques: https://drive.google.com/file/d/1r3FBadcUf3Q0sssoY6KX0TH9KYjOZMBd/view?usp=sharing
 - Maquettes: https://www.figma.com/file/ymZ54WUzwrQ7GJwLNYFnHJ/Maquette-So'Permis?typ
+
+# Déploiement
+- Héberger le site
+- charger la base de données
+- mail newletter a configurer
+- lancer back end : (so-permis/backend)
+  - php spark serve
+- lancer front end : (so-permis/frontend)
+  - npm install
+  - npm start
+  
