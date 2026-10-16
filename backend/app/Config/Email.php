@@ -28,17 +28,17 @@ class Email extends BaseConfig
     /**
      * SMTP Server Address
      */
-    public string $SMTPHost = 'smtp.gmail.com';
+    public string $SMTPHost = ''; // Configured through email.SMTPHost in backend/.env
 
     /**
      * SMTP Username
      */
-    public string $SMTPUser = 'malo.rihet@gmail.com'; //adresse mail temporaire
+    public string $SMTPUser = ''; // Configured through email.SMTPUser in backend/.env
 
     /**
      * SMTP Password
      */
-    public string $SMTPPass = 'bghe hunl zbji olbs';
+    public string $SMTPPass = ''; // Configured through email.SMTPPass in backend/.env
 
     /**
      * SMTP Port
